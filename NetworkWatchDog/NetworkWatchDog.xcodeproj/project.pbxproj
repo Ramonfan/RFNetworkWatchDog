@@ -14,6 +14,8 @@
 		18192E0F205F9797003130EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18192E0D205F9797003130EA /* LaunchScreen.storyboard */; };
 		18192E12205F9797003130EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18192E11205F9797003130EA /* main.m */; };
 		18192E1C205F9797003130EA /* NetworkWatchDogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18192E1B205F9797003130EA /* NetworkWatchDogTests.m */; };
+		18192E29205F98FA003130EA /* RFNetworkWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 18192E28205F98FA003130EA /* RFNetworkWatchDog.m */; };
+		D2768F1FCEBFCC74F96F9B8D /* Pods_NetworkWatchDog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2611FE4A34B514ED06936FC /* Pods_NetworkWatchDog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1323F84BBD14D8C0133784F1 /* Pods-NetworkWatchDog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkWatchDog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkWatchDog/Pods-NetworkWatchDog.debug.xcconfig"; sourceTree = "<group>"; };
 		18192DFF205F9797003130EA /* NetworkWatchDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkWatchDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18192E02205F9797003130EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18192E03205F9797003130EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +43,10 @@
 		18192E17205F9797003130EA /* NetworkWatchDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkWatchDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18192E1B205F9797003130EA /* NetworkWatchDogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkWatchDogTests.m; sourceTree = "<group>"; };
 		18192E1D205F9797003130EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18192E27205F98FA003130EA /* RFNetworkWatchDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFNetworkWatchDog.h; sourceTree = "<group>"; };
+		18192E28205F98FA003130EA /* RFNetworkWatchDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFNetworkWatchDog.m; sourceTree = "<group>"; };
+		42B016764C1242D91AA6CF1C /* Pods-NetworkWatchDog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkWatchDog.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkWatchDog/Pods-NetworkWatchDog.release.xcconfig"; sourceTree = "<group>"; };
+		E2611FE4A34B514ED06936FC /* Pods_NetworkWatchDog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkWatchDog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2768F1FCEBFCC74F96F9B8D /* Pods_NetworkWatchDog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +68,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		058E27F1E99C886C549B911C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1323F84BBD14D8C0133784F1 /* Pods-NetworkWatchDog.debug.xcconfig */,
+				42B016764C1242D91AA6CF1C /* Pods-NetworkWatchDog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		18192DF6205F9797003130EA = {
 			isa = PBXGroup;
 			children = (
+				18192E26205F98EB003130EA /* RFNetworkWatchDog */,
 				18192E01205F9797003130EA /* NetworkWatchDog */,
 				18192E1A205F9797003130EA /* NetworkWatchDogTests */,
 				18192E00205F9797003130EA /* Products */,
+				058E27F1E99C886C549B911C /* Pods */,
+				94586F9620E6FB13C0D79F65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +123,23 @@
 			path = NetworkWatchDogTests;
 			sourceTree = "<group>";
 		};
+		18192E26205F98EB003130EA /* RFNetworkWatchDog */ = {
+			isa = PBXGroup;
+			children = (
+				18192E27205F98FA003130EA /* RFNetworkWatchDog.h */,
+				18192E28205F98FA003130EA /* RFNetworkWatchDog.m */,
+			);
+			path = RFNetworkWatchDog;
+			sourceTree = "<group>";
+		};
+		94586F9620E6FB13C0D79F65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2611FE4A34B514ED06936FC /* Pods_NetworkWatchDog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18192E20205F9797003130EA /* Build configuration list for PBXNativeTarget "NetworkWatchDog" */;
 			buildPhases = (
+				B5F1F097778F83A48173DD85 /* [CP] Check Pods Manifest.lock */,
 				18192DFB205F9797003130EA /* Sources */,
 				18192DFC205F9797003130EA /* Frameworks */,
 				18192DFD205F9797003130EA /* Resources */,
+				18FC6A7BC4273E09030E6FDE /* [CP] Embed Pods Frameworks */,
+				F3F86FC9136694D770FFD58D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,12 +240,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18FC6A7BC4273E09030E6FDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NetworkWatchDog/Pods-NetworkWatchDog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetworkWatchDog/Pods-NetworkWatchDog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F1F097778F83A48173DD85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetworkWatchDog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F86FC9136694D770FFD58D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetworkWatchDog/Pods-NetworkWatchDog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18192DFB205F9797003130EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18192E07205F9797003130EA /* ViewController.m in Sources */,
+				18192E29205F98FA003130EA /* RFNetworkWatchDog.m in Sources */,
 				18192E12205F9797003130EA /* main.m in Sources */,
 				18192E04205F9797003130EA /* AppDelegate.m in Sources */,
 			);
@@ -355,11 +450,13 @@
 		};
 		18192E21205F9797003130EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1323F84BBD14D8C0133784F1 /* Pods-NetworkWatchDog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P8Z58836CP;
 				INFOPLIST_FILE = NetworkWatchDog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.NetworkWatchDog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,11 +466,13 @@
 		};
 		18192E22205F9797003130EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B016764C1242D91AA6CF1C /* Pods-NetworkWatchDog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P8Z58836CP;
 				INFOPLIST_FILE = NetworkWatchDog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.NetworkWatchDog;
 				PRODUCT_NAME = "$(TARGET_NAME)";

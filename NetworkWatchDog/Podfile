@@ -1,0 +1,5 @@
+use_frameworks!
+
+target "NetworkWatchDog" do
+	pod 'Reachability'
+end 
