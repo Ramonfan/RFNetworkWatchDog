@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18192E04205F9797003130EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18192E03205F9797003130EA /* AppDelegate.m */; };
+		18192E07205F9797003130EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18192E06205F9797003130EA /* ViewController.m */; };
+		18192E0A205F9797003130EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18192E08205F9797003130EA /* Main.storyboard */; };
+		18192E0C205F9797003130EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18192E0B205F9797003130EA /* Assets.xcassets */; };
+		18192E0F205F9797003130EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18192E0D205F9797003130EA /* LaunchScreen.storyboard */; };
+		18192E12205F9797003130EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18192E11205F9797003130EA /* main.m */; };
+		18192E1C205F9797003130EA /* NetworkWatchDogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18192E1B205F9797003130EA /* NetworkWatchDogTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18192E18205F9797003130EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18192DF7205F9797003130EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18192DFE205F9797003130EA;
+			remoteInfo = NetworkWatchDog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18192DFF205F9797003130EA /* NetworkWatchDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkWatchDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18192E02205F9797003130EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18192E03205F9797003130EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18192E05205F9797003130EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18192E06205F9797003130EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18192E09205F9797003130EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18192E0B205F9797003130EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18192E0E205F9797003130EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18192E10205F9797003130EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18192E11205F9797003130EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18192E17205F9797003130EA /* NetworkWatchDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkWatchDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18192E1B205F9797003130EA /* NetworkWatchDogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkWatchDogTests.m; sourceTree = "<group>"; };
+		18192E1D205F9797003130EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18192DFC205F9797003130EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18192E14205F9797003130EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18192DF6205F9797003130EA = {
+			isa = PBXGroup;
+			children = (
+				18192E01205F9797003130EA /* NetworkWatchDog */,
+				18192E1A205F9797003130EA /* NetworkWatchDogTests */,
+				18192E00205F9797003130EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18192E00205F9797003130EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18192DFF205F9797003130EA /* NetworkWatchDog.app */,
+				18192E17205F9797003130EA /* NetworkWatchDogTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18192E01205F9797003130EA /* NetworkWatchDog */ = {
+			isa = PBXGroup;
+			children = (
+				18192E02205F9797003130EA /* AppDelegate.h */,
+				18192E03205F9797003130EA /* AppDelegate.m */,
+				18192E05205F9797003130EA /* ViewController.h */,
+				18192E06205F9797003130EA /* ViewController.m */,
+				18192E08205F9797003130EA /* Main.storyboard */,
+				18192E0B205F9797003130EA /* Assets.xcassets */,
+				18192E0D205F9797003130EA /* LaunchScreen.storyboard */,
+				18192E10205F9797003130EA /* Info.plist */,
+				18192E11205F9797003130EA /* main.m */,
+			);
+			path = NetworkWatchDog;
+			sourceTree = "<group>";
+		};
+		18192E1A205F9797003130EA /* NetworkWatchDogTests */ = {
+			isa = PBXGroup;
+			children = (
+				18192E1B205F9797003130EA /* NetworkWatchDogTests.m */,
+				18192E1D205F9797003130EA /* Info.plist */,
+			);
+			path = NetworkWatchDogTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18192DFE205F9797003130EA /* NetworkWatchDog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18192E20205F9797003130EA /* Build configuration list for PBXNativeTarget "NetworkWatchDog" */;
+			buildPhases = (
+				18192DFB205F9797003130EA /* Sources */,
+				18192DFC205F9797003130EA /* Frameworks */,
+				18192DFD205F9797003130EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkWatchDog;
+			productName = NetworkWatchDog;
+			productReference = 18192DFF205F9797003130EA /* NetworkWatchDog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18192E16205F9797003130EA /* NetworkWatchDogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18192E23205F9797003130EA /* Build configuration list for PBXNativeTarget "NetworkWatchDogTests" */;
+			buildPhases = (
+				18192E13205F9797003130EA /* Sources */,
+				18192E14205F9797003130EA /* Frameworks */,
+				18192E15205F9797003130EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18192E19205F9797003130EA /* PBXTargetDependency */,
+			);
+			name = NetworkWatchDogTests;
+			productName = NetworkWatchDogTests;
+			productReference = 18192E17205F9797003130EA /* NetworkWatchDogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18192DF7205F9797003130EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Ramon;
+				TargetAttributes = {
+					18192DFE205F9797003130EA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					18192E16205F9797003130EA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18192DFE205F9797003130EA;
+					};
+				};
+			};
+			buildConfigurationList = 18192DFA205F9797003130EA /* Build configuration list for PBXProject "NetworkWatchDog" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18192DF6205F9797003130EA;
+			productRefGroup = 18192E00205F9797003130EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18192DFE205F9797003130EA /* NetworkWatchDog */,
+				18192E16205F9797003130EA /* NetworkWatchDogTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18192DFD205F9797003130EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18192E0F205F9797003130EA /* LaunchScreen.storyboard in Resources */,
+				18192E0C205F9797003130EA /* Assets.xcassets in Resources */,
+				18192E0A205F9797003130EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18192E15205F9797003130EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18192DFB205F9797003130EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18192E07205F9797003130EA /* ViewController.m in Sources */,
+				18192E12205F9797003130EA /* main.m in Sources */,
+				18192E04205F9797003130EA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18192E13205F9797003130EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18192E1C205F9797003130EA /* NetworkWatchDogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18192E19205F9797003130EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18192DFE205F9797003130EA /* NetworkWatchDog */;
+			targetProxy = 18192E18205F9797003130EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18192E08205F9797003130EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18192E09205F9797003130EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18192E0D205F9797003130EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18192E0E205F9797003130EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18192E1E205F9797003130EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18192E1F205F9797003130EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18192E21205F9797003130EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8Z58836CP;
+				INFOPLIST_FILE = NetworkWatchDog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.NetworkWatchDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18192E22205F9797003130EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8Z58836CP;
+				INFOPLIST_FILE = NetworkWatchDog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.NetworkWatchDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18192E24205F9797003130EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8Z58836CP;
+				INFOPLIST_FILE = NetworkWatchDogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.NetworkWatchDogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkWatchDog.app/NetworkWatchDog";
+			};
+			name = Debug;
+		};
+		18192E25205F9797003130EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8Z58836CP;
+				INFOPLIST_FILE = NetworkWatchDogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.NetworkWatchDogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkWatchDog.app/NetworkWatchDog";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18192DFA205F9797003130EA /* Build configuration list for PBXProject "NetworkWatchDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18192E1E205F9797003130EA /* Debug */,
+				18192E1F205F9797003130EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18192E20205F9797003130EA /* Build configuration list for PBXNativeTarget "NetworkWatchDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18192E21205F9797003130EA /* Debug */,
+				18192E22205F9797003130EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18192E23205F9797003130EA /* Build configuration list for PBXNativeTarget "NetworkWatchDogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18192E24205F9797003130EA /* Debug */,
+				18192E25205F9797003130EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18192DF7205F9797003130EA /* Project object */;
+}
